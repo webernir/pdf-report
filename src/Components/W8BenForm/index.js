@@ -6,7 +6,7 @@ import './style.css'
 const FieldElement = ({ value, style }) => {
     return (
         <div style={{ ...FieldElement.defaultProps.style, ...style }}>
-            {value}
+           <input type='text' value={value} />
         </div>
     )
 }
